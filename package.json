@@ -1,0 +1,22 @@
+{
+  "license": "IBM proprietary license",
+  "devDependencies": {
+    "node-forge": "0.8.0",
+    "bestzip": "2.1.5",
+    "node-fetch": "2.5.0"
+  },
+  "name": "IBM-Cloud-Security-Advisor-samples",
+  "description": "IBM Cloud Security Advisor E2E flow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagdishkumar1/IBM-Cloud-Security-Advisor-samples"
+  },
+  "scripts": {
+    "start": "node src/postFindings.js"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "axios": "^0.20.0"
+  }
+}
